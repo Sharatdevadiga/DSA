@@ -11,7 +11,7 @@ class Stack{
   pop(){
     if(!this.vals.length)
       return undefined
-    return this.pop()
+    return this.vals.pop()
   }
 }
 
